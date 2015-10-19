@@ -1,0 +1,268 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * vairables
+ * ----------------------------------------------------------------------------------------
+ */
+/**
+ * ----------------------------------------------------------------------------------------
+ * Typography
+ * ----------------------------------------------------------------------------------------
+ */
+/* line 21, ../sass/style.css.scss */
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 26, ../sass/style.css.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+/* line 34, ../sass/style.css.scss */
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+/* line 40, ../sass/style.css.scss */
+h1 {
+  color: #fff;
+  font-size: 100px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/* line 51, ../sass/style.css.scss */
+h2 {
+  margin-bottom: 30px;
+}
+
+/* line 55, ../sass/style.css.scss */
+h4, p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+/* line 61, ../sass/style.css.scss */
+h4 strong {
+  font-weight: bold;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Layout
+ * ----------------------------------------------------------------------------------------
+ */
+/* line 71, ../sass/style.css.scss */
+ul.partner-list li, ul.social-list li {
+  display: inline-block;
+}
+
+/* line 75, ../sass/style.css.scss */
+.t-padding {
+  padding: 40px 0 80px 0;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Component
+ * ----------------------------------------------------------------------------------------
+ */
+/* line 85, ../sass/style.css.scss */
+.btn-default {
+  font-size: 20px;
+  line-height: 20px;
+  padding: 13px 13px;
+  border-radius: 8px;
+  margin-right: 6px;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ *  Navbar
+ * ----------------------------------------------------------------------------------------
+ */
+/* line 99, ../sass/style.css.scss */
+.navbar {
+  padding: 15px 0;
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+/* line 106, ../sass/style.css.scss */
+.navbar-custom {
+  background-color: transparent;
+  border: none;
+}
+
+/* line 111, ../sass/style.css.scss */
+#navbar > ul > li > a, body > nav > div > div.navbar-header > a.navbar-brand {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* line 118, ../sass/style.css.scss */
+#navbar > ul > li.active a {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* line 122, ../sass/style.css.scss */
+.top-nav-collapse {
+  padding: 0;
+  background-color: #333333;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Intro
+ * ----------------------------------------------------------------------------------------
+ */
+/* line 134, ../sass/style.css.scss */
+section.intro {
+  padding: 80px;
+  background-image: url("../images/intro-bg.jpg");
+  background-position: center bottom;
+  height: 100%;
+  width: 100%;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+/* line 146, ../sass/style.css.scss */
+.intro h3 {
+  color: white;
+  font-weight: normal;
+}
+
+/* line 151, ../sass/style.css.scss */
+.intro .intro-body h3 > strong {
+  font-weight: bold;
+}
+
+/* line 155, ../sass/style.css.scss */
+.intro {
+  display: table;
+}
+
+/* line 159, ../sass/style.css.scss */
+.intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Why Section
+ * ----------------------------------------------------------------------------------------
+ */
+/* line 170, ../sass/style.css.scss */
+.block-icon-left {
+  overflow: auto;
+  margin: 5px;
+}
+/* line 173, ../sass/style.css.scss */
+.block-icon-left .icon {
+  float: left;
+  width: 30%;
+}
+/* line 178, ../sass/style.css.scss */
+.block-icon-left .icon-content {
+  float: left;
+  width: 70%;
+  padding: 0;
+  margin: 0;
+}
+/* line 183, ../sass/style.css.scss */
+.block-icon-left .icon-content h4 {
+  margin-bottom: 10px;
+}
+/* line 187, ../sass/style.css.scss */
+.block-icon-left .icon-content p {
+  font-size: 14px;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Who Section
+ * ----------------------------------------------------------------------------------------
+ */
+/* line 199, ../sass/style.css.scss */
+.who {
+  background-image: url("../images/downloads-bg.jpg");
+  width: 100%;
+  height: 387px;
+  color: #fff;
+}
+
+/* line 206, ../sass/style.css.scss */
+.who {
+  display: table;
+}
+
+/* line 210, ../sass/style.css.scss */
+.who > .who-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 215, ../sass/style.css.scss */
+.who h2 {
+  margin-top: 0;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Clients
+ * ----------------------------------------------------------------------------------------
+ */
+/* line 225, ../sass/style.css.scss */
+.partner-list li img {
+  margin: 0 10px;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Contact Section
+ * ----------------------------------------------------------------------------------------
+ */
+/* line 235, ../sass/style.css.scss */
+.contact {
+  background-color: #333333;
+  color: #fff;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Footer
+ * ----------------------------------------------------------------------------------------
+ */
+/* line 246, ../sass/style.css.scss */
+footer {
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Transition
+ * ----------------------------------------------------------------------------------------
+ */
+/* line 258, ../sass/style.css.scss */
+.page-scroll {
+  -moz-transition-property: -webkit-transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+}
